@@ -1,0 +1,72 @@
+body {
+  background-color: bisque;
+  margin: 0px;
+  padding: 0px;
+}
+.kapsa {
+  width: 900px;
+  margin: 30px auto;
+  border: 2px solid black;
+}
+.header {
+  padding: 30px;
+}
+.sehirler {
+  background-color: gainsboro;
+  height: 40px;
+}
+.sehirler ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.sehirler ul li {
+  float: left;
+}
+.sehirler ul li a {
+  display: block;
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  line-height: 40px;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+.sehirler ul li a:hover {
+  color: crimson;
+}
+.icerik {
+  background-color: white;
+}
+.sol_taraf {
+  width: 600px;
+  float: left;
+}
+.sol_taraf h2 {
+  width: 600px;
+  border-bottom: 2px dashed black;
+}
+.sag_taraf {
+  width: 250px;
+  margin-left: 30px;
+  float: left;
+}
+.sag_taraf h3 {
+  background-color: darkgray;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.sag_taraf ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.sag_taraf ul li {
+  height: 50px;
+  background-color: wheat;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
